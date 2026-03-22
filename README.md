@@ -4,6 +4,7 @@ This repository currently serves as the versioned home for the sparse neural sea
 
 ## Contents
 - `docs/sparse-neural-search-design-notes.md` — running architecture notes and implementation guidance for hybrid lexical + sparse retrieval.
+- `docs/design.md` — a more concrete integration-oriented design for adding a sparse weighted index beside the positional lexical index.
 
 ## Current design snapshot
 The design notes currently recommend:
@@ -21,3 +22,4 @@ The design notes currently recommend:
 4. Add evaluation slices for exact, variant, alias, and ambiguity-sensitive queries.
 
 For the detailed rationale and rollout guidance, see `docs/sparse-neural-search-design-notes.md`.
+For a more implementation-oriented view of the index layout, query flow, and scoring model, see `docs/design.md`.
